@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+  <title> My personal Website | Oleksii Stepanenko</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = 'shortcut icon' href = 'images/dog.png'>
+    <link rel = 'stylesheet' href = 'style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <section class = 'header' id = 'home'>
+        <nav>
+          <div class = 'nav-links' id = 'links'>
+
+        <ul>
+          <li><a href="#achievements" id = 'a'>My achievements</a></li>
+          <li><a href="#projects" id = 'pr'>My projects</a></li>
+          <li><a href="#hobbies" id = 'hb'>My hobbies</a></li>
+        </ul>
+      </div>
+
+      <div class = 'icon' onclick="showMenu()">
+        <img src = 'images/menu-icon.png'>
+        <script src="script.js"></script>
+      </div>
+      </nav>
+
+      <div class = 'text-box'>
+        <h1 id = 'title'>Oleksii Stepanenko</h1>
+        <p>A third-year applied mathematics student, aspired data scientist</p>
+        <a href = "#achievements" class="hero-btn">Learn More</a>
+  </div>
+</section> 
+<section class = 'achievements' id = 'achievements'>
+      <h1>About me</h1> <br>
+       <p id = > My name is Oleksii. I'm 19 years of age and was born in Kharkiv, Ukraine. Since my childhood I like maths and coding. Setting challenges and committing to completing them before a specific term is what sparks my excitement. Here is the list of my biggest achievements thus far:</p>
+    <div class = 'row'>
+      <div class = 'col'>
+        <h3> Winning school competitions </h3>
+        <p>Way back in school I participated in different school competitions on a regional or national level and became:</p>
+        <div class="list-container">
+            <div class="list-item">
+                <button class="circle-button"></button>
+                <span>4x prize winner on a regional mathematics olympiad</span>
+            </div>
+            <div class="list-item">
+                <button class="circle-button"></button>
+                <span>1x prize winner on a national geography olympiad</span>
+            </div>
+            <div class="list-item">
+                <button class="circle-button"></button>
+                <span>1x prize winner on a university mathematics olympiad, first place</span>
+            </div>
+        </div>
+      </div>
+      <div class = 'col'>
+        <h3> Machine Learning Certificate </h3>
+        <p>As I discovered my passion towards machine learning, I started to dive deeper into it and completed Machine Learning Specialization on Coursera</p>
+      </div>
+      <div class = 'col'>
+        <h3> Foreign Languages </h3>
+        <p>I am a quick learner of foreign languages. So far I've already reached fluency in both English and German. I also managed to learn Italian from scratch until the A2 level within 2 months.</p>
+      </div>
+    </div>
+    </section>
+
+
+    <section class = 'projects' id = 'projects'>
+        <h1>My projects</h1> 
+      <div class = 'row'>
+        <div class = 'col'>
+            <h3>Emotion Classifier</h3>
+            <img src="images/text.jpg" id = 'text'>
+            <p> In 2024 I started to work on a text emotion classifier using Python and pre-trained models such as BERT and improve its performance on texts containing slang words using fine-tuning techniques.</p>  
+          </div>
+          <div class = 'col'>
+            <h3>Bingo Bot</h3>
+           <a href = 'https://bit.ly/3FIu4sM' target="blank">  <img src="images/bot.jpg" id = 'bot'> </a>
+            <p>In spring 2020 I started coding discord bots using discord.js. Bingo bot is my best project so far. Add him to your server by clicking <a target = 'blank' href = 'https://bit.ly/3FIu4sM'>here</a> or on the image above.</p>  
+          </div>
+        <div class = 'col'>
+          <h3>This website</h3>
+          <img src="images/dog.png">
+          <p>I created the first version of it way back in 2021, when ChatGPT wasn't there yet.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class = 'hobbies' id = 'hobbies'>
+      <h1>My hobbies</h1> 
+    <div class = 'row'>
+        <div class = 'col'>
+            <h3> Learning </h3>
+            <p>I am a constant learner surrounded by piles of books (on my laptop). I mostly read books about psychology, artificial intelligence and mathematics. </p>
+        </div>
+        <div class = 'col'>
+            <h3> Sport </h3>
+            <p>I prefer leading active lifestyle, going to gym regularly, swimming and hiking.</p>
+    </div>
+        <div class = 'col'>
+            <h3> Playing chess</h3>
+            <p>Since the age of 4, I've been playing chess and have reached an intermediate level in the game.</p>
+        </div>
+    </div>
+    </section>
+
+
+    </body>
